@@ -14,4 +14,4 @@ testRemoveProductFromCart()
 testCreateOrderFromCart()
 testGetOrderStatus()
 ## Висновок
-Зробив свою систему електронної комерції ну і поглибив знання з junit.
+Зробив свою систему електронної комерції і поглибив знання з junit.
