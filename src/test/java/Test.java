@@ -21,12 +21,15 @@ class ECommerceSystemTest {
     }
 
     @Test
-    public void testAddAndRemoveProductFromCart() {
+    public void testAddProductToCart() {
         cart.addProduct(product2);
         assertEquals(2, cart.getProducts().size());
+    }
 
+    @Test
+    public void testRemoveProductFromCart() {
         cart.removeProduct(product1);
-        assertEquals(1, cart.getProducts().size());
+        assertEquals(0, cart.getProducts().size());
     }
 
     @Test
