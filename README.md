@@ -9,9 +9,9 @@
 3. Зробив тест для провірки функціональності.
 В ньому провіряється чи додається і видаляється продукт, провіряться чи робиться правильно замовлення і чи в ньому лишається та сама кількість продуктів які були добавленні і провіряється статус конкретного замовлення.
 Вот такі тести получилися:
-testAddProductToCart()
-testRemoveProductFromCart()
-testCreateOrderFromCart()
-testGetOrderStatus()
+testAddProductToCart(),
+testRemoveProductFromCart(),
+testCreateOrderFromCart(),
+testGetOrderStatus().
 ## Висновок
 Зробив свою систему електронної комерції і поглибив знання з junit.
