@@ -7,9 +7,9 @@
 2. Створив клас ECommerceApp в якому зробив так щоб в консолі виконувати такі дії: додати/видалити продукт з кошика, робити замовлення з товарів у кошику, отримувати статус конкретного замовлення використовуючи switch case.
 ### Тестування
 Клас ECommerceSystemTest містить кілька тестів для перевірки функціональностей класів Product, Cart і Order.
-testAddProductToCart(): перевіряє метод addProduct, який додає продукт до кошика.
-testRemoveProductFromCart(): перевіряє метод removeProduct класу Cart, який видаляє продукт з кошика.
-testCreateOrderFromCart(): перевіряє метод getProducts класу Cart, який повертає список продуктів у кошику.
-testGetOrderStatus(). перевіряє метод getStatus класу Order, який повертає статус замовлення.
+- testAddProductToCart(): перевіряє метод addProduct, який додає продукт до кошика.
+- testRemoveProductFromCart(): перевіряє метод removeProduct класу Cart, який видаляє продукт з кошика.
+- testCreateOrderFromCart(): перевіряє метод getProducts класу Cart, який повертає список продуктів у кошику.
+- testGetOrderStatus(). перевіряє метод getStatus класу Order, який повертає статус замовлення.
 ## Висновок
 Зробив свою систему електронної комерції і поглибив знання з junit і вивчив Mockito.
